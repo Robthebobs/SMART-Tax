@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export default function BookkeepingPage() {
+export default function AccountingPage() {
     return (
         <>
             <section className="section" style={{
@@ -11,7 +11,7 @@ export default function BookkeepingPage() {
                 color: 'white'
             }}>
                 <div className="container">
-                    <h1 className="text-h1">Bookkeeping & Accounting Services</h1>
+                    <h1 className="text-h1">Accounting & Bookkeeping Services</h1>
                     <p className="text-body" style={{ maxWidth: '800px', color: '#e2e8f0' }}>
                         Accurate and timely financial information is the foundation of sound business decision-making. Our services provide clarity, control, and compliance.
                     </p>

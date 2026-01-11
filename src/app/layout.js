@@ -27,9 +27,9 @@ export default function RootLayout({ children }) {
               <div>
                 <h4 style={{ color: 'white', marginBottom: '20px' }}>Quick Links</h4>
                 <ul style={{ listStyle: 'none', space: '10px' }}>
-                  <li style={{ marginBottom: '10px' }}><Link href="/bookkeeping">Bookkeeping</Link></li>
+                  <li style={{ marginBottom: '10px' }}><Link href="/accounting">Accounting</Link></li>
                   <li style={{ marginBottom: '10px' }}><Link href="/tax-compliance">Tax Compliance</Link></li>
-                  <li style={{ marginBottom: '10px' }}><Link href="/services">Other Services</Link></li>
+                  <li style={{ marginBottom: '10px' }}><Link href="/other-services">Other Services</Link></li>
                 </ul>
               </div>
               <div>
