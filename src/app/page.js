@@ -78,7 +78,7 @@ export default function Home() {
                 }}>
                     <div style={{ maxWidth: '800px' }}>
                         <h1 className="text-h1" style={{ marginBottom: '20px', textShadow: '0 4px 20px rgba(0,0,0,0.5)' }}>
-                            Expert Tax & Accounting Advisory for Business Growth
+                            Expert Tax, Accounting & HR Advisory for Business Growth
                         </h1>
                         <p style={{ fontSize: '1.25rem', opacity: 0.9, marginBottom: '40px', textShadow: '0 2px 10px rgba(0,0,0,0.5)' }}>
                             Empowering SMEs with strategic financial insight, regulatory certainty, and dependable advisory support.
