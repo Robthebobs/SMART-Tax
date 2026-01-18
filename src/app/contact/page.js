@@ -22,7 +22,7 @@ export default function ContactPage() {
                             <div style={{ marginBottom: '30px' }}>
                                 <h4 className="text-h3" style={{ fontSize: '1.2rem' }}>Office Address</h4>
                                 <p className="text-body">
-                                    Smart Tax & Accounting Consultancy<br />
+                                    Smart Business Solutions<br />
                                     [Address Line 1]<br />
                                     [City, Country]
                                 </p>

@@ -24,16 +24,14 @@ export default function AccountingPage() {
                         <div>
                             <h2 className="text-h2">Precision & Compliance</h2>
                             <p className="text-body" style={{ marginBottom: '20px' }}>
-                                We deliver end-to-end bookkeeping and accounting solutions tailored to the needs of small and medium-sized enterprises, ensuring that financial records are maintained with precision and in accordance with applicable accounting standards and regulatory requirements.
+                                In today’s dynamic business environment, effective financial management requires accuracy, consistency, and regulatory discipline. Our <strong>Outsourced Accounting Services</strong> are designed to provide businesses with a reliable and scalable finance function, without the cost and complexity of maintaining an in-house accounting team.
                             </p>
                             <h3 className="text-h3">Our Core Services</h3>
                             <ul style={{ listStyle: 'disc', paddingLeft: '20px', lineHeight: '2', color: 'var(--secondary)' }}>
-                                <li>Systematic recording of financial transactions</li>
-                                <li>Maintenance of general ledgers</li>
-                                <li>Bank and account reconciliations</li>
-                                <li>Accounts receivable and payable management</li>
-                                <li>Payroll accounting</li>
-                                <li>Preparation of periodic financial statements</li>
+                                <li>Systematic recording of financial transactions.</li>
+                                <li>Payroll accounting.</li>
+                                <li>Tax filing ( VAT and Corporate)</li>
+                                <li>Management Accounting and Reports.</li>
                             </ul>
                         </div>
                         <div style={{ background: '#f1f5f9', padding: '40px', borderRadius: '12px' }}>

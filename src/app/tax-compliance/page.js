@@ -21,7 +21,7 @@ export default function TaxCompliancePage() {
             <section className="section">
                 <div className="container">
                     <p className="text-body" style={{ marginBottom: '40px', maxWidth: '900px' }}>
-                        Smart Tax & Accounting Consultancy provides comprehensive tax compliance services, supported by our registration with the Federal Tax Authority (FTA) and the Internal Revenue Service (IRS). We manage the complete tax compliance lifecycle, emphasizing accuracy, transparency, and adherence to statutory deadlines.
+                        Smart Business Solutions provides comprehensive tax compliance services, supported by our registration with the Federal Tax Authority (FTA) and the Internal Revenue Service (IRS). We manage the complete tax compliance lifecycle, emphasizing accuracy, transparency, and adherence to statutory deadlines.
                     </p>
 
                     <div className="grid-2">

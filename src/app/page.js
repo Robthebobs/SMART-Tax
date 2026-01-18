@@ -101,7 +101,7 @@ export default function Home() {
                             <p className="text-body" style={{ marginBottom: '20px' }}>
                                 In an increasingly complex regulatory environment, SMEs require more than routine accounting — they need strategic financial insight and dependable advisory support to navigate risk and unlock growth opportunities.
                             </p>
-                            <Link href="/other-services" className="btn btn-outline" style={{ marginTop: '20px' }}>More About Us</Link>
+                            <Link href="/contact" className="btn btn-outline" style={{ marginTop: '20px' }}>More About Us</Link>
                         </div>
                         <div>
                             <div style={{ height: '400px', borderRadius: '12px', overflow: 'hidden', position: 'relative' }}>
@@ -132,30 +132,38 @@ export default function Home() {
                         </Link>
                     </div>
 
-                    <div className="grid-3">
+                    <div className="grid-4">
                         <div style={{ padding: '20px 0', borderTop: '1px solid #e2e8f0' }}>
                             <span style={{ color: '#94a3b8', fontSize: '0.9rem', fontWeight: '600', display: 'block', marginBottom: '10px' }}>01</span>
-                            <h3 className="text-h3">Accounting</h3>
-                            <p className="text-body" style={{ marginBottom: '20px', fontSize: '1rem' }}>
+                            <h3 className="text-h3" style={{ fontSize: '1.25rem' }}>Accounting</h3>
+                            <p className="text-body" style={{ marginBottom: '20px', fontSize: '0.95rem' }}>
                                 Precision in recording financial transactions and maintaining general ledgers for clear decision making.
                             </p>
-                            <Link href="/accounting" style={{ color: 'var(--primary)', fontSize: '0.95rem', fontWeight: '500' }}>Learn more</Link>
+                            <Link href="/accounting" style={{ color: 'var(--primary)', fontSize: '0.9rem', fontWeight: '500' }}>Learn more</Link>
                         </div>
                         <div style={{ padding: '20px 0', borderTop: '1px solid #e2e8f0' }}>
                             <span style={{ color: '#94a3b8', fontSize: '0.9rem', fontWeight: '600', display: 'block', marginBottom: '10px' }}>02</span>
-                            <h3 className="text-h3">Tax Compliance</h3>
-                            <p className="text-body" style={{ marginBottom: '20px', fontSize: '1rem' }}>
+                            <h3 className="text-h3" style={{ fontSize: '1.25rem' }}>Tax Compliance</h3>
+                            <p className="text-body" style={{ marginBottom: '20px', fontSize: '0.95rem' }}>
                                 Full lifecycle management of VAT, Corporate Tax, and IRS filings to mitigate regulatory risks.
                             </p>
-                            <Link href="/tax-compliance" style={{ color: 'var(--primary)', fontSize: '0.95rem', fontWeight: '500' }}>Learn more</Link>
+                            <Link href="/tax-compliance" style={{ color: 'var(--primary)', fontSize: '0.9rem', fontWeight: '500' }}>Learn more</Link>
                         </div>
                         <div style={{ padding: '20px 0', borderTop: '1px solid #e2e8f0' }}>
                             <span style={{ color: '#94a3b8', fontSize: '0.9rem', fontWeight: '600', display: 'block', marginBottom: '10px' }}>03</span>
-                            <h3 className="text-h3">Strategic Advisory</h3>
-                            <p className="text-body" style={{ marginBottom: '20px', fontSize: '1rem' }}>
+                            <h3 className="text-h3" style={{ fontSize: '1.25rem' }}>HR Services</h3>
+                            <p className="text-body" style={{ marginBottom: '20px', fontSize: '0.95rem' }}>
+                                Talent acquisition and workforce solutions aligned with your business culture.
+                            </p>
+                            <Link href="/hr" style={{ color: 'var(--primary)', fontSize: '0.9rem', fontWeight: '500' }}>Learn more</Link>
+                        </div>
+                        <div style={{ padding: '20px 0', borderTop: '1px solid #e2e8f0' }}>
+                            <span style={{ color: '#94a3b8', fontSize: '0.9rem', fontWeight: '600', display: 'block', marginBottom: '10px' }}>04</span>
+                            <h3 className="text-h3" style={{ fontSize: '1.25rem' }}>Strategic Advisory</h3>
+                            <p className="text-body" style={{ marginBottom: '20px', fontSize: '0.95rem' }}>
                                 From offshore formation to transfer pricing, we structure your business for global efficiency.
                             </p>
-                            <Link href="/other-services" style={{ color: 'var(--primary)', fontSize: '0.95rem', fontWeight: '500' }}>Learn more</Link>
+                            <Link href="/other-services" style={{ color: 'var(--primary)', fontSize: '0.9rem', fontWeight: '500' }}>Learn more</Link>
                         </div>
                     </div>
                 </div>

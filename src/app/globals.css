@@ -1,13 +1,18 @@
 :root {
-  --primary: #0f172a; /* Navy Blue */
-  --secondary: #334155; /* Slate 700 */
-  --accent: #e2e8f0; /* Slate 200 */
-  --accent-gold: #fbbf24; /* Amber 400 */
+  --primary: #0f172a;
+  /* Navy Blue */
+  --secondary: #334155;
+  /* Slate 700 */
+  --accent: #e2e8f0;
+  /* Slate 200 */
+  --accent-gold: #fbbf24;
+  /* Amber 400 */
   --background: #ffffff;
   --foreground: #0f172a;
-  --text-light: #64748b; /* Slate 500 */
+  --text-light: #64748b;
+  /* Slate 500 */
   --success: #16a34a;
-  
+
   --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
@@ -74,18 +79,66 @@ a {
   color: white;
 }
 
-.text-center { text-align: center; }
-.text-h1 { font-size: 3rem; font-weight: 800; line-height: 1.2; margin-bottom: 1rem; }
-.text-h2 { font-size: 2.25rem; font-weight: 700; margin-bottom: 1rem; color: var(--primary); }
-.text-h3 { font-size: 1.5rem; font-weight: 600; margin-bottom: 0.5rem; color: var(--primary); }
-.text-body { color: var(--text-light); font-size: 1.125rem; }
+.text-center {
+  text-align: center;
+}
 
-.grid-2 { display: grid; grid-template-columns: 1fr; gap: 40px; }
-.grid-3 { display: grid; grid-template-columns: 1fr; gap: 30px; }
+.text-h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.text-h2 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--primary);
+}
+
+.text-h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--primary);
+}
+
+.text-body {
+  color: var(--text-light);
+  font-size: 1.125rem;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
 
 @media (min-width: 768px) {
-  .grid-2 { grid-template-columns: 1fr 1fr; }
-  .grid-3 { grid-template-columns: repeat(3, 1fr); }
+  .grid-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .grid-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 .card {
@@ -131,7 +184,9 @@ a {
 }
 
 @media (min-width: 768px) {
-  .nav-links { display: flex; }
+  .nav-links {
+    display: flex;
+  }
 }
 
 .nav-link {

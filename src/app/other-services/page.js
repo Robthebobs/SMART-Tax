@@ -47,19 +47,7 @@ export default function ServicesPage() {
                             </ul>
                         </div>
 
-                        <div className="card">
-                            <h3 className="text-h3">Management Reporting & MIS</h3>
-                            <p className="text-body">
-                                Preparation of customized management reports, dashboards, and performance analysis for informed decision-making.
-                            </p>
-                        </div>
 
-                        <div className="card">
-                            <h3 className="text-h3">Payroll & WPS Compliance</h3>
-                            <p className="text-body">
-                                End-to-end payroll processing, statutory filings, and compliance with UAE WPS and labor regulations.
-                            </p>
-                        </div>
 
                         <div className="card">
                             <h3 className="text-h3">Business Setup & Regulatory Advisory</h3>
